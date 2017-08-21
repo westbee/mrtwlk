@@ -1,0 +1,87 @@
+.intro-text p {
+	margin-bottom: 10px;
+}
+
+/* ----------masonary--------- */
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* force scrollbar */
+html { overflow-y: scroll; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- isotope ---- */
+
+.grid {
+  background: #fff;
+  margin: 0 auto;
+}
+
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.grid-sizer,
+	.grid-item {
+	  width: 50%;
+	  padding: 5px;
+	}
+
+.gigante {
+	width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+	.grid-sizer, .grid-item {
+		width: 25%;
+	}
+	.gigante {
+	width: 50%;
+}
+}
+
+@media only screen and (min-width: 1400px) {
+	.grid-sizer, .grid-item {
+		width: 33.3333%;
+	}
+	.gigante {
+	width: 33.3333%;
+}
+}
+
+
+.next-gallery {
+	padding-top: 30px;
+}
+
+.next-gallery a {
+	color: #000;
+}
+
+.next-gallery h5 {
+	margin-top: 20px;
+	margin-bottom:0px
+}
