@@ -381,3 +381,42 @@ footer a, a:hover {
   color: #000;
   text-decoration: none;
 }
+
+/*moments*/
+
+body#moments {
+  background-color: #000;
+}
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: top;
+}
+
+.intro-bg {
+    width: 100%;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 50px;
+}
+
+h5.moments {
+  font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    padding-top: 20px;
+
+}

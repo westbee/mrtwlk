@@ -59,7 +59,7 @@ $('section#socialmedia').append("\
 ");
 
 
-for (i = 44; i > 0; i--) {
+for (i = 46; i > 0; i--) {
    $('div#baby-gallery').append("\
     <div class='grid-item'>\
       <img src='img/newborn/medium/"+ i +".jpg' class='img-responsive'>\
@@ -67,7 +67,7 @@ for (i = 44; i > 0; i--) {
   ");
 }
 
-for (i = 54; i > 0; i--) {
+for (i = 58; i > 0; i--) {
    $('div#kinder-gallery').append("\
     <div class='grid-item'>\
       <img src='img/kinder/medium/"+ i +".jpg' class='img-responsive'>\
@@ -75,7 +75,7 @@ for (i = 54; i > 0; i--) {
   ");
 }
 
-for (i = 42; i > 0; i--) {
+for (i = 44; i > 0; i--) {
    $('div#portrait-gallery').append("\
     <div class='grid-item'>\
       <img src='img/portrait/medium/"+ i +".jpg' class='img-responsive'>\
