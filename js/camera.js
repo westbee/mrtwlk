@@ -1,3 +1,45 @@
+// navbar
+
+$('nav').addClass("navbar navbar-custom navbar-static-top").attr("role", "navigation");
+
+var headMenu = '\
+  <div class="container">\
+    <div class="navbar-header">\
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">\
+        <span class="sr-only">Toggle navigation</span>\
+        <span class="icon-bar"></span>\
+        <span class="icon-bar"></span>\
+        <span class="icon-bar"></span>\
+      </button>\
+    </div>\
+    <img src="img/logo_big.jpg" class="logo-nav img-responsive">\
+    <div class="row">\
+      <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">\
+        <div class="nav">\
+          <!-- Collect the nav links, forms, and other content for toggling -->\
+          <div class="collapse navbar-collapse navbar-main-collapse">\
+            <hr class="no-margin">\
+            <ul class="nav nav-pills nav-justified">\
+              <!-- Hidden li included to remove active class from about link when scrolled up past about section -->\
+              <li class="hidden">\
+                <a href="#page-top"></a>\
+              </li>\
+              <li><a href="/">Home</a></li>\
+              <li><a href="gallery.html">Galerie</a></li>\
+              <li><a href="about.html">über mich</a></li>\
+              <li><a href="faq.html">Info</a></li>\
+              <li><a href="contact.html">Kontakt</a></li> \
+            </ul>\
+            <hr class="no-margin">\
+          </div>\
+        </div>\
+      </div>\
+    </div>\
+  </div>\
+ ';
+
+$('nav').append(headMenu);
+
 var category = [
   {
     name: "Neugeborene & Babybauch",
