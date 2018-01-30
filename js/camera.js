@@ -115,3 +115,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
     img.onerror = function(){this.style.display='none';};
    })
 });
+
+// footer section
+  
+  var date = new Date().getFullYear();
+  var copyRights = "\
+    <div class='container'>\
+      <div class='text-center'>\
+        <p>&copy;2015-"+date+" Marta Wilk Photography | Website - <a href='https://admlkswcz.bitballoon.com' target='_blank'>Adam Lukasiewicz</a> | All rights reserved.</p>\
+      </div>\
+    </div>";
+
+  $('footer').append(copyRights);
