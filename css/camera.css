@@ -330,6 +330,39 @@ img.text-wrap {
 
 }
 
+/*preise*/
+
+#preise li a {
+  font-family: 'Droid Serif', serif;;
+  font-size: 12px;
+  color: #000;
+  font-style: italic;
+
+}
+
+#preise p {
+  margin-bottom: 5px;
+}
+
+div.p-description {
+  margin: 20px auto;
+}
+
+div.preise-img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div.p-offer {
+  padding-top: 20px;
+}
+
+.p-offer h6 {
+  text-align: left;
+  margin-top: 15px;
+}
+
+
 /*fag*/
 
 .faq-panel h5 {

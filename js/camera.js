@@ -27,6 +27,7 @@ var headMenu = '\
               <li><a href="/">Home</a></li>\
               <li><a href="gallery.html">Galerie</a></li>\
               <li><a href="about.html">über mich</a></li>\
+              <li><a href="preise.html">Preise</a></li>\
               <li><a href="faq.html">Info</a></li>\
               <li><a href="contact.html">Kontakt</a></li> \
             </ul>\
