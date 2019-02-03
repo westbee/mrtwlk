@@ -16,11 +16,9 @@ var headMenu = '\
     <div class="row">\
       <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">\
         <div class="nav">\
-          <!-- Collect the nav links, forms, and other content for toggling -->\
           <div class="collapse navbar-collapse navbar-main-collapse">\
             <hr class="no-margin">\
             <ul class="nav nav-pills nav-justified">\
-              <!-- Hidden li included to remove active class from about link when scrolled up past about section -->\
               <li class="hidden">\
                 <a href="#page-top"></a>\
               </li>\
@@ -45,13 +43,13 @@ var category = [
   {
     name: "Neugeborene & Babybauch",
     title: "&minus; die schönste Zeit im Leben einer Frau &minus;",
-    pic: "img/newborn/medium/39.jpg",
+    pic: "img/cat1.jpg",
     link: "neugeborene-babybauch.html"
   },
   {
     name: "Kinder & Familien",
   	title: "&minus; einzigartige Andenken für viele Jahre &minus;",
-    pic: "img/kinder/medium/6.jpg",
+    pic: "img/cat2.jpg",
 	  link: "kinder-familien.html"
   },
   {
@@ -86,7 +84,7 @@ $('section#socialmedia').append("\
                 <ul class='soc'>\
                     <li><a class='soc-mail' href='mailto:marta.wilk.photo@gmail.com'><img src='img/mail2.png' class='socico img-responsive'></a></li>\
                     <li><a class='soc-facebook' href='https://www.facebook.com/martawilkphotography' target='_blank'><img src='img/facebook-48.png' class='socico img-responsive'></a></li>\
-                    <li><a class='soc-instagram soc-icon-last' href='https://instagram.com/marta_wilk_photography/' target='_blank'><img src='img/instagram-48.png' class='socico img-responsive'></a></li>\
+                    <li><a class='soc-instagram soc-icon-last' href='https://www.instagram.com/martawilkphotography/' target='_blank'><img src='img/instagram-48.png' class='socico img-responsive'></a></li>\
                 </ul>\
               </div>\
             </div>\
@@ -102,7 +100,7 @@ $('section#socialmedia').append("\
 ");
 
 
-for (i = 46; i > 0; i--) {
+for (i = 60; i > 0; i--) {
    $('div#baby-gallery').append("\
     <div class='grid-item'>\
       <img src='img/newborn/medium/"+ i +".jpg' class='img-responsive'>\
@@ -110,7 +108,7 @@ for (i = 46; i > 0; i--) {
   ");
 }
 
-for (i = 58; i > 0; i--) {
+for (i = 84; i > 0; i--) {
    $('div#kinder-gallery').append("\
     <div class='grid-item'>\
       <img src='img/kinder/medium/"+ i +".jpg' class='img-responsive'>\

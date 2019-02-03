@@ -1,0 +1,84 @@
+body#moments {
+	padding-top: 50px;
+}
+
+div.images {
+	padding-top: 50px;
+}
+
+.box {
+	margin-bottom: 50px;
+}
+
+.images {
+  position: relative;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+}
+
+.box:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+	color: #000;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 100;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.images img {
+		height: 150px;
+	}
+
+	.box {
+		padding-top: 20px;
+		margin: 0 15px;
+	}
+
+	.fashion-box {
+		background-image: url(fashion/img/1.jpg);
+		height: 160px;
+		background-position: 30% 25%;
+ 		background-repeat: no-repeat;
+  		background-size: cover;
+	}
+
+	.portrait-box {
+		margin-top: 30px;
+		background-image: url(portrait/img/1.jpg);
+		height: 160px;
+		background-position: 30% 30%;
+ 		background-repeat: no-repeat;
+  		background-size: cover;
+	}
+
+	.box .overlay {
+	  opacity: 0.4;
+	}
+
+}
