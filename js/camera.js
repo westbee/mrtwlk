@@ -151,11 +151,12 @@ $(function() {
           //  msnry.layout();
          // });
         });
-document.addEventListener("DOMContentLoaded", function(event) {
-   document.querySelectorAll('img').forEach(function(img){
-    img.onerror = function(){this.style.display='none';};
-   })
-});
+
+  //image error? -> remove it and the parent-div
+  $("img").on("error", function() {
+      $(this).parent().remove();
+    }
+  );
 
 // footer section
   
