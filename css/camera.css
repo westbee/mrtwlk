@@ -311,23 +311,40 @@ img.socico {
 
 /*about*/ 
 
+div.about-quote {
+  margin: 0 35px;
+}
+
+div.about-quote p {
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  margin-bottom: 20px;
+}
+
+p.about-quote-author {
+  margin-right: 20px;
+  font-family: 'Droid Serif', serif;
+}
+
+@media(min-width:768px) {
+    p.about-quote-author {
+    margin-right: 90px;
+  }
+
+}
+
 img.text-wrap {
     float: left;
     margin-right: 20px;
 }
 
-.about-text h4 {
-  text-transform: uppercase;
-  padding-top: 20px;
+.about-text {
+  padding-top: 80px;
   padding-bottom: 15px;
 }
 
-@media(min-width:768px) {
-    .about-text h4 {
-      padding-top: 0px;
-      padding-bottom: 30px;
-    }
-
+.about-text p.less-margin {
+  margin-bottom: 8px;
 }
 
 /*preise*/
