@@ -90,11 +90,11 @@ export let pricing = [
     id: 0,
     title: "Babybauch",
     description: "Die perfekte Zeit für ein Babybauch-Shooting ist ab der 30 SSW. Das Shooting findet im Studio bei mir statt oder bei schönem Wetter auch draußen. Das Fotoshooting dauert in etwa 1-2 Stunden. Ich habe einige Schwangerschaftskleider für werdende Mütter zur Auswahl sowie Accessoires. Beim Fotoshooting darf sehr gerne auch Papa mit dabei sein oder auch die größeren Geschwisterkinder.",
+    bgImg: "img/preise/s1.jpg",
     packages: [
       {
         name: "BASIC",
         price: "199€",
-        imgUrl: "img/preise/s1.jpg",
         details: [
           "1-2 Outfits",
           "Professionelle Bearbeitung",
@@ -106,7 +106,6 @@ export let pricing = [
       {
         name: "EXCLUSIVE",
         price: "249€",
-        imgUrl: "img/preise/s2.jpg",
         details: [
           "2-3 Outfits",
           "Professionelle Bearbeitung",
@@ -121,11 +120,11 @@ export let pricing = [
     id: 1,
     title: "Kinder & Familien",
     description: "Das beste Alter für ein Baby Fotoshooting ist ab dem 6-8 Monat, ab Sitzalter.  Von Vorteil ist es, wenn Ihr Kind selbständig sitzen kann. Dadurch sind zusätzliche Positionen möglich, die es ermöglichen noch mehr schöne Bilder einzufangen. Buchen Sie ihren Termin für Kinder und Familien Fotos bei mir im Studio und auch Outdoor.",
+    bgImg: "img/preise/k1.jpg",
     packages: [
       {
         name: "BASIC",
         price: "199€",
-        imgUrl: "img/preise/k1.jpg",
         details: [
           "7 retuschierte Bilder einschließlich 1 Familienaufnahme (digital auf USB Stick & als Abzug 13*19)",
           "Professionelle Bearbeitung",
@@ -136,7 +135,6 @@ export let pricing = [
       {
         name: "EXCLUSIVE",
         price: "249€",
-        imgUrl: "img/preise/k2.jpg",
         details: [
           "12 retuschierte Bilder einschließlich 2 Familienaufnahmen (digital auf USB Stick & als Abzug 13*19)",
           "Professionelle Bearbeitung",
@@ -150,11 +148,11 @@ export let pricing = [
     id: 2,
     title: "Cake Smash",
     description: "Cake Smash Fotoshooting ist die neue Alternative zum Standard-Fotoshooting. Es ist auch für die Kinder ein riesen Spaß! Ein Cake-Smash-Shooting kann zum 1. Geburtstag oder auch rund um den 2. Geburtstag gebucht werden. Ich habe einige Schwangerschaftskleider für werdende Mütter zur Auswahl sowie Accessoires.",
+    bgImg: "img/preise/c1.jpg",
     packages: [
       {
         name: "BASIC",
         price: "249€",
-        imgUrl: "img/preise/c1.jpg",
         details: [
           "7 retuschierte Bilder (digital auf USB Stick & als Abzug 13*19)",
           "Professionelle Bearbeitung",
@@ -168,11 +166,11 @@ export let pricing = [
     id: 3,
     title: "Neugeborene",
     description: "Nur in den ersten Tagen nach der Geburt sind diese speziellen Aufnahmen möglich. Das Shooting findet in meinem Studio statt und kann 2-4 Stunden dauern. Zwischen den einzelnen Bildern, bei denen Ihr Neugeborenes in verschiedene Positionen fotografiert wird, haben Sie noch genug Zeit zum Stillen, Wickeln und Kuscheln. Weitere Informationen und Tipps zur Vorbereitung erhalten Sie von mir bei der Buchung.",
+    bgImg: "img/preise/n1.jpg",
     packages: [
       {
         name: "BASIC",
         price: "229€",
-        imgUrl: "img/preise/n1.jpg",
         details: [
           "1-2 Outfits",
           "versch. Outfits & Accessoires",
@@ -184,9 +182,7 @@ export let pricing = [
       },
       {
         name: "EXCLUSIVE",
-        price: "299€",
-        imgUrl: "img/preise/n2.jpg",
-        details: [
+        price: "299€",details: [
           "2-3 Outfits",
           "Professionelle Bearbeitung",
           "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
@@ -200,11 +196,11 @@ export let pricing = [
     id: 4,
     title: "Porträt",
     description: "Die perfekte Zeit für ein Babybauch-Shooting ist ab der 30 SSW. Das Shooting findet im Studio bei mir statt oder bei schönem Wetter auch draußen. Das Fotoshooting dauert in etwa 1-2 Stunden. Ich habe einige Schwangerschaftskleider für werdende Mütter zur Auswahl sowie Accessoires. Beim Fotoshooting darf sehr gerne auch Papa mit dabei sein oder auch die größeren Geschwisterkinder.",
+    bgImg: "img/preise/p1.jpg",
     packages: [
       {
         name: "BASIC",
         price: "199€",
-        imgUrl: "img/preise/p1.jpg",
         details: [
           "Professionelle Bearbeitung",
           "Online Galerie (zur bequemen Bilderauswahl von Zuhause aus)",
