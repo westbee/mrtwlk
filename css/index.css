@@ -1,0 +1,53 @@
+.jumbotron-welcome {
+  background-image: url('../img/bg-main.jpg');
+  height: 100vh;
+}
+
+.intro-box {
+  padding: 100px 10px;
+}
+
+.welcome-text, .hightlight-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.welcome-text {
+  padding-bottom: 60px;
+}
+
+.hightlight-headline {
+  padding-top: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* portfolio highlights */
+
+section#portfolio-highlights img {
+  padding-top: 30px;
+}
+
+@media(min-width:992px) {
+  .half-bg {
+    background: linear-gradient(-90deg, #F8F8F8 75%, #fff 25%);
+  }
+}
+
+.portfolio-number, .portfolio-text {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.portfolio-number {
+  font-size: 2.75rem;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.portfolio-text {
+  letter-spacing: 0.5em;
+  margin-bottom: 40px;
+}
