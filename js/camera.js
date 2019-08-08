@@ -56,6 +56,20 @@ var copyRights = `
 
 $('body').append(copyRights);
 
+// smooth scrolling
+
+$('a[href*="#"]').on('click', function(e) {
+  e.preventDefault()
+
+  $('html, body').animate(
+    {
+      scrollTop: $($(this).attr('href')).offset().top,
+    },
+    500,
+    'linear'
+  )
+})
+
 // images responsive
 
 $('img').addClass('img-fluid');
