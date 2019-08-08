@@ -1,0 +1,68 @@
+.jumbotron-contact {
+  background-image: url('../img/bg-main.jpg');
+  height: auto;
+}
+
+.contact-intro {
+  width: 90%;
+  padding: 50px 30px;
+  padding-bottom: 50px;
+}
+
+.contact-text {
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.contact-image-eg {
+  position: relative;
+  width: 100%;
+  margin-bottom: 400px;
+}
+
+.contact-intro-over {
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  background-color: #F8F8F8EE;
+}
+
+@media(min-width:576px) {
+  .contact-image-eg {
+    margin-bottom: 250px;
+  }
+}
+
+@media(min-width:992px) {
+
+  .contact-image-eg {
+    margin-bottom: 120px;
+  }
+
+  .contact-image-width {
+    width: 75%;
+  }
+
+  .contact-image-eg {
+  position: relative;
+  width: 100%;
+  }
+
+  .contact-intro-over {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    background-color: #F8F8F8EE;
+  }
+
+  .contact-intro {
+    padding: 70px 60px;
+    padding-bottom: 50px;
+    width: 420px;
+  }
+}
+
+.contact-icon {
+  color: rgba(0,0,0,.6);
+}
