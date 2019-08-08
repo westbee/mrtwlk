@@ -214,24 +214,19 @@ export let pricing = [
 
 // faq page
 
-export let faqImages = [
-  "img/faq/faq1.jpg",
-  "img/faq/faq2.jpg"
-];
-
 export let faq = [
   {
-    imageUrl: "img/portrait/medium/37.jpg",
+    imageUrl: "img/faq/faq1.jpg",
     title: "Ablauf",
     text: "Wir besprechen im Vorfeld Eure Wünsche und Vorstellungen und Ihr entscheidet Euch, welches Paket Ihr buchen möchtet. Im Anschluss an das Fotoshooting wird jedes Bild von mir individuell und professionell bearbeitet. Die Bilder werden dann in einer persönlichen Online-Galerie bereitgestellt und gedruckt im Format 13x19."
   },
   {
-    imageUrl: "img/portrait/medium/37.jpg",
+    imageUrl: "img/preise/paket3.jpg",
     title: "Pakete",
     text: "Schreibt mir einfach eine e-mail oder ruft mich an und ich stelle Euch ein individuelles Angebot zusammen."
   },
   {
-    imageUrl: "img/portrait/medium/37.jpg",
+    imageUrl: "img/faq/faq2.jpg",
     title: "Gutschein",
     text: "Sucht Ihr ein ganz besonderes und persönliches Geschenk für Eure Familie oder Freunde? Ein Gutschein für ein individuelles Fotoshooting in Berlin ist für jeden genau die richtige Geschenkidee!"
   }

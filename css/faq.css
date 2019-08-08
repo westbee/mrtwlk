@@ -1,0 +1,52 @@
+.jumbotron-faq {
+  background-image: url('../img/bg-main.jpg');
+}
+
+.faq-box {
+  padding-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 50px;
+}
+
+.faq-head {
+  margin-top: 60px;
+  text-transform: uppercase;
+}
+
+.faq-text {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.faq-image {
+  box-shadow: -12px -12px 2px 0px #e8e8e8;
+  -webkit-box-shadow: -12px -12px 2px 0px #e8e8e8;
+  -moz-box-shadow: -12px -12px 2px 0px #e8e8e8;
+}
+
+@media(min-width:768px) {
+  #faq .faq-box:nth-child(2n) .col-lg:first-child {
+    order: 1;
+  }
+
+  .faq-box {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .faq-head {
+    margin-top: 20px;
+  }
+
+  .faq-text {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media(min-width:992px) {
+  .faq-image {
+    box-shadow: none;
+  }
+}
