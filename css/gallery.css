@@ -1,3 +1,26 @@
+/* portfolio */
+
+.category-image {
+  position: relative;
+}
+
+.category-description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255,255,255,.7);
+}
+
+.category-head {
+  margin: 20px 20px;
+  text-transform: uppercase;
+}
+
+.gallery-title {
+  margin-bottom: 50px;
+}
+
 .intro-text p {
 	margin-bottom: 10px;
 }
