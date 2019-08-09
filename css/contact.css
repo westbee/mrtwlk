@@ -9,10 +9,28 @@
   padding-bottom: 50px;
 }
 
+.contact-box {
+  background-color: #F8F8F8;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  margin-bottom: 15px;
+}
+
 .contact-text {
   text-align: center;
   margin-bottom: 30px;
   line-height: 1.8;
+}
+
+.btn-contact {
+  width: 262px;
+  letter-spacing: 0.2em;
+  margin: 5px;
+  white-space: nowrap;
+  padding: 1rem 1.5rem;
+  font-size: 0.625rem;
+  line-height: 1.3em;
+  text-transform: uppercase;
 }
 
 .contact-image-eg {
@@ -26,6 +44,18 @@
   top: 70%;
   left: 5%;
   background-color: #F8F8F8EE;
+}
+
+.contact-address {
+  text-align: center;
+  margin-bottom: 5px;
+  line-height: 1.6;
+}
+
+.contact-map {
+  padding-top: 30px;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
 }
 
 @media(min-width:576px) {
