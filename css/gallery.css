@@ -1,11 +1,18 @@
 /* portfolio */
 
+.col-padding {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .category-image {
   position: relative;
+  margin-top: 10px;
 }
 
 .category-description {
   position: absolute;
+  width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -14,7 +21,10 @@
 
 .category-head {
   margin: 20px 20px;
+  margin-bottom: 15px;
   text-transform: uppercase;
+  color: #676767;
+  font-size: 0.8rem;
 }
 
 .gallery-title {

@@ -3,21 +3,35 @@ import * as content from "./content.js";
 let galleryCategories = '';
 
 for(var i = 0; i < content.category.length; i++){
+  // galleryCategories += `
+  // <div class="col-md-3">
+  //   <a href="${content.category[i].link}">
+  //     <div class="category-image">
+  //       <img src="${content.category[i].image}">
+  //     </div>
+  //     <div class="category-description">
+  //       <h4 class="category-head">${content.category[i].name}</h4>
+  //     </div>
+  //   </a>
+  // </div>
+  // `
   galleryCategories += `
-  <div class="col-md">
-    <div class="category-image">
-      <a href="${content.category[i].link}"><img src="${content.category[i].image}"></a>
-    </div>
-    <div class="category-description">
-      <h4 class="category-head">${content.category[i].name}</h4>
-    </div>
+  <div class="col-md col-padding">
+    <a href="${content.category[i].link}">
+      <div class="category-image">
+        <img src="${content.category[i].image}">
+      </div>
+      <div class="category-description">
+        <h6 class="category-head">${content.category[i].name}</h6>
+      </div>
+    </a>
   </div>
   `
 }
 
 let gallery = `
   <div class="container">
-    <div class="row">
+    <div class="row justify-content-center">
       ${galleryCategories}
     </div>
   </div>
