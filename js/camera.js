@@ -31,13 +31,18 @@ let nav = `
 
 $('body').prepend(nav);
 
+$("button").click(function(){
+  $("nav").toggleClass("nav-bg");
+});
+
 function collapseNavbar() {
-  if ( $("nav").offset().top > 40 ) {
-    $("nav").addClass("nav-bg-light");
-    $(".nav-link").removeClass("nav-link-top").addClass("nav-link-scroll");
-  } else {
+
+  if ( $("nav").offset().top < 40 ) {
     $("nav").removeClass("nav-bg-light");
     $(".nav-link").removeClass("nav-link-scroll").addClass("nav-link-top");
+  } else {
+    $("nav").addClass("nav-bg-light");
+    $(".nav-link").removeClass("nav-link-top").addClass("nav-link-scroll");
   }
 }
 
