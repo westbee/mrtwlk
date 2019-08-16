@@ -50,16 +50,40 @@ $(window).scroll(collapseNavbar);
 
 // footer
 
+var socialMedia = ``;
+for (var i in content.socialMedia){
+  socialMedia += `
+    <li>
+      <a class="${content.socialMedia[i].class}" href="${content.socialMedia[i].link}" target="${content.socialMedia[i].target}">
+        <img src="${content.socialMedia[i].image}" class="socico">
+      </a>
+    </li>
+  `
+};
+
 var date = new Date().getFullYear();
-var copyRights = `
-  <div class="container">
-    <div class="text-center">
-      <p class="footer-text">&copy;2015-${date} Marta Wilk Photography | Website - <a href="https://admlkswcz.bitballoon.com" target="_blank">Adam Lukasiewicz</a> | All rights reserved.</p>
+var footer = `
+  <footer>
+    <div class="container">
+      <div class="row footer-bar align-items-center">
+        <div class="col">
+          <div class ="socialmedia-icon">
+            <ul class="soc">
+              ${socialMedia}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="footer-text">&copy;2015-${date} Marta Wilk Photography | All rights reserved.</p>
+        </div>
+      </div>
     </div>
-  </div>
+  </footer>
 `;
 
-$('body').append(copyRights);
+$('body').append(footer);
 
 // smooth scrolling
 

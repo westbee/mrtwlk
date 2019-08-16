@@ -246,15 +246,15 @@ export let contactData = {
 
 export let socialMedia = [
   {
-    link: "mailto:marta.wilk.photo@gmail.com",
-    image: "img/social-media/mail2.png"
-  },
-  {
+    class: "soc-facebook",
     link: "https://www.facebook.com/martawilkphotography",
+    target: "_blank",
     image: "img/social-media//facebook-48.png"
   },
   {
+    class: "soc-instagram soc-icon-last",
     link: "https://www.instagram.com/martawilkphotography/",
+    target: "_blank",
     image: "img/social-media//instagram-48.png"
   }
 ];
