@@ -12,16 +12,14 @@ import "./contact.js";
 let navItems = '';
 
 for(var i = 0; i < content.navItems.length; i++){
-  navItems += `<a class="nav-item nav-link nav-link-top" href="${content.navItems[i].link}">${content.navItems[i].name}</a>`
+  navItems += `<a class="nav-item nav-link" href="${content.navItems[i].link}">${content.navItems[i].name}</a>`
 }
 
 let nav = `
   <nav class="nav nav-justified navbar navbar-expand-lg fixed-top">
-    <div class="logo-img">
-      <img src="img/logo_sm_black.png" class="navbar-brand">
-    </div>
+    <img src="img/logo_big_black.png" class="navbar-brand">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span><img src="img/icon-nav.png" class="img-fluid"></span>
+      <span><img src="img/icon-nav.png" width="22px"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       ${navItems}
@@ -39,10 +37,10 @@ function collapseNavbar() {
 
   if ( $("nav").offset().top < 40 ) {
     $("nav").removeClass("nav-bg-light");
-    $(".nav-link").removeClass("nav-link-scroll").addClass("nav-link-top");
+    $(".navbar-brand").removeClass("navbar-brand__width-toggler")
   } else {
     $("nav").addClass("nav-bg-light");
-    $(".nav-link").removeClass("nav-link-top").addClass("nav-link-scroll");
+    $(".navbar-brand").addClass("navbar-brand__width-toggler");
   }
 }
 

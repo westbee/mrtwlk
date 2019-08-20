@@ -33,7 +33,7 @@ p {
 
 @media(min-width:992px) {
   .first-section {
-    padding-top: 150px;
+    padding-top: 180px;
   }
 }
 
@@ -75,20 +75,35 @@ nav {
 }
 
 .nav-link {
-  font-size: 0.65rem;
-  font-family: 'Sorts Mill Goudy', serif;
-  font-weight: 400;
+  font-size: 0.8rem;
+  /* font-family: 'Sorts Mill Goudy', serif; */
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: .3em;
+  letter-spacing: .1em;
   padding: 1.5rem 1rem;
+  color: #000;
 }
 
 .nav-link:not(:last-child) {
   border-bottom: 1px solid #33333338;
 }
 
-.nav-link-top, .nav-link-scroll, .nav-link:hover {
+.nav-link:hover {
   color: #ca8c1a;
+}
+
+.navbar-brand {
+  transition:all .8s;
+  width: 200px;
+}
+
+.navbar-brand__width-toggler {
+  width: 150px;
+}
+
+.navbar-toggler:focus {
+  outline-style: none;
 }
 
 @media(min-width:992px) {
@@ -96,12 +111,8 @@ nav {
     background-color: transparent;
   }
 
-  .logo-img {
-    margin-left: 20px;
-    width: 25%;
-  }
-
   .nav-link {
+    font-weight: 400;
     padding: .8rem 1rem;
   }
 
@@ -109,17 +120,18 @@ nav {
     border-bottom: 0px;
   }
 
-  .nav-link-top {
-    color: #ca8c1a;
-  }
-
-  .nav-link-scroll {
-    color: #000;
-  }
-
   .navbar {
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .navbar-brand {
+    width: 240px;
+    margin-right: 4rem;
+  }
+
+  .navbar-brand__width-toggler {
+    padding-right: 60px;
   }
 
   .nav-link:hover {
