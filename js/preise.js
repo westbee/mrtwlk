@@ -7,7 +7,7 @@ content.pricing.forEach(function(packages, index) {
     packages += `
     <div class="col-md-5">
       <div class="price-package">
-        <h5 class="price-headline">${
+        <h5 class="price-package-headline">${
           content.pricing[index].packages[x].name
         }</h5>
         <p class="price-package-detail">&rarr; ${content.pricing[
@@ -25,13 +25,11 @@ content.pricing.forEach(function(packages, index) {
 
   shootings += `
     <div class="collapse" id="id-${content.pricing[index].id}">
-      <div class="row justify-content-center">
-        <div class="col-10">
-          <h3>${content.pricing[index].title}</h3>
-          <p class="price-description">${content.pricing[index].description}</p>
-        </div>
+      <div class="shootings-head">
+        <h3>${content.pricing[index].title}</h3>
+        <p class="price-text-style">${content.pricing[index].description}</p>
       </div>
-      <div class="price-bg-img-${content.pricing[index].id}">
+      <div class="price-bg-img price-bg-img-${content.pricing[index].id}">
         <div class="row justify-content-center">
           ${packages}
         </div>
@@ -53,10 +51,44 @@ content.pricing.forEach(function(packages, index) {
 let pricing = `
   <div class="container">
     <div class="row justify-content-center">
-      ${buttons}
-    </div>
-    <div class="row sub-section-padding">
-      ${shootings}
+      <div class="col-lg-11">
+        <div class="price-headline">
+          <p class="price-text-style">
+            ${content.pricingHeadline.text}
+          </p>
+        </div>
+        <div class="price-body">
+          <div class="row justify-content-center">
+            ${buttons}
+          </div>
+          ${shootings}
+        </div>
+        <div class="price-footer">
+          <div class="price-footer__box">
+            <p class="price-text-style">
+              <strong>${content.pricingVoucher.question}</strong>
+            </p>
+            <p class="price-text-style">
+              ${content.pricingVoucher.answer}
+            </p>
+          </div>
+          <div class="price-footer__box">
+            <p class="price-text-style">
+              <strong>${content.pricingFooter.question}</strong>
+            </p>
+            <p class="price-text-style">
+              ${content.pricingFooter.text}
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <div class="button-box">
+              <p class="text-center"><a class="btn btn-outline-dark btn-sm custom-button" href="contact.html" role="button">zum Kontakt</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 `;

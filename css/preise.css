@@ -28,18 +28,42 @@
   }
 }
 
-.price-description {
+.price-headline {
+  margin-bottom: 50px;
+}
+
+.shootings-head {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.price-text-style {
   line-height: 1.8;
+}
+
+.price-bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .price-package {
   background-color: #F8F8F8E5;
   padding: 45px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 40px;
 }
 
-.price-headline {
+@media(min-width:768px) {
+  .price-package {
+    padding: 45px;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+}
+
+.price-package-headline {
   padding-top: 20px;
 }
 
@@ -62,4 +86,13 @@ p.price-package-extra::before {
 
 .steuer {
   font-size: 0.7rem;
+}
+
+.price-footer {
+  padding-top: 30px;
+}
+
+.price-footer__box {
+  padding-top: 20px;
+  text-align: center;
 }
