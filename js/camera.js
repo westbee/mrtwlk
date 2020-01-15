@@ -4,7 +4,6 @@ import "./index.js";
 import "./about.js";
 import "./gallery.js";
 import "./preise.js";
-import "./faq.js";
 import "./contact.js";
 
 // navigation
