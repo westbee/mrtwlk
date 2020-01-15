@@ -1,42 +1,5 @@
 import * as content from "./content.js";
 
-// let contact = `
-// <div class="container">
-//   <div class="row justify-content-center">
-//     <div class="col-md-8 col-lg-6">
-//       <div class="contact-box">
-//         <h3>Lass uns kennenlernen!</h3>
-//         <p class="contact-text">${content.contactData.text}</p>
-//       </div>
-//     </div>
-//   </div>
-//   <div class="row justify-content-center">
-//     <div class="col-md-4 col-6">
-//       <div class="contact-box">
-//         <h2 class="contact-icon"><i class="fas fa-mobile"></i></h2>
-//         <h6>Telefon</h6>
-//         <p class="contact-text">${content.contactData.mobile}</p>
-//       </div>
-//     </div>
-//     <div class="col-md-4 col-6">
-//       <div class="contact-box">
-//         <h2 class="contact-icon"><i class="fas fa-envelope"></i></h2>
-//         <h6>E-mail</h6>
-//         <p class="contact-text">${content.contactData.email}</p>
-//       </div>
-//     </div>
-//     <div class="col-md-4 col-6">
-//       <div class="contact-box">
-//         <h2 class="contact-icon"><i class="fas fa-map-marked-alt"></i></h2>
-//         <h6>Adresse</h6>
-//         <p class="contact-text">${content.contactData.address.street}</p>
-//         <p class="contact-text">${content.contactData.address.city}</p>
-//       </div>
-//     </div>
-//   </div>
-// </div>
-// `;
-
 let contact = `
 <div class="container">
   <div class="row justify-content-center">
@@ -56,14 +19,18 @@ let contact = `
       <div class="contact-box">
         <h2 class="contact-icon"><i class="fas fa-mobile"></i></h2>
         <h5>Telefon</h5>
-        <p class="contact-text"><a class="btn btn-outline-dark btn-sm btn-contact" href="#" role="button">${content.contactData.mobile}</a></p>
+        <p class="contact-text"><a class="btn btn-outline-dark btn-sm btn-contact" href="#" role="button">${
+          content.contactData.mobile
+        }</a></p>
       </div>
     </div>
     <div class="col-md-6">
       <div class="contact-box">
         <h2 class="contact-icon"><i class="fas fa-envelope"></i></h2>
         <h5>E-mail</h5>
-        <p class="contact-text"><a class="btn btn-outline-dark btn-sm btn-contact" href="#" role="button">${content.contactData.email}</a></p>
+        <p class="contact-text"><a class="btn btn-outline-dark btn-sm btn-contact" href="#" role="button">${
+          content.contactData.email
+        }</a></p>
       </div>
     </div>
   </div>
@@ -85,4 +52,4 @@ let contact = `
 </div>
 `;
 
-$('#contact').append(contact);
+$("#contact").append(contact);

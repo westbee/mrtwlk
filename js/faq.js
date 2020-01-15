@@ -1,8 +1,8 @@
 import * as content from "./content.js";
 
-let faqItems = '';
+let faqItems = "";
 
-for(var i = 0; i < content.faq.length; i++){
+for (var i = 0; i < content.faq.length; i++) {
   faqItems += `
   <div class="faq-box">
     <div class="row justify-content-around v-align-middle">
@@ -15,7 +15,7 @@ for(var i = 0; i < content.faq.length; i++){
       </div>
     </div>
   </div>
-  `
+  `;
 }
 
 let faq = `
@@ -26,5 +26,5 @@ let faq = `
   </div>
 `;
 
-$('#faq').append(faq);
+$("#faq").append(faq);
 // $('.faq-images .col-md:nth-child(2n)').addClass("d-none d-md-block");

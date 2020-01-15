@@ -1,19 +1,19 @@
 import * as content from "./content.js";
 
-let aboutImages = '';
+let aboutImages = "";
 
-for(var i = 0; i < content.about["imageUrl"].length; i++){
+for (var i = 0; i < content.about["imageUrl"].length; i++) {
   aboutImages += `
     <div class="col-md">
       <img src="${content.about["imageUrl"][i]}">
     </div>
-  `
+  `;
 }
 
-let aboutParagraphs = '';
+let aboutParagraphs = "";
 
-for(var i = 0; i < content.about["text"].length; i++){
-  aboutParagraphs += `<p>${content.about["text"][i]}</p>`
+for (var i = 0; i < content.about["text"].length; i++) {
+  aboutParagraphs += `<p>${content.about["text"][i]}</p>`;
 }
 
 let aboutPage = `
@@ -43,5 +43,5 @@ let aboutPage = `
   </div>
 `;
 
-$('#about').append(aboutPage);
-$('.about-images .col-md:nth-child(-n+2)').addClass("d-none d-md-block");
+$("#about").append(aboutPage);
+$(".about-images .col-md:nth-child(-n+2)").addClass("d-none d-md-block");
