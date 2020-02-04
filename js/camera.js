@@ -5,6 +5,7 @@ import "./about.js";
 import "./gallery.js";
 import "./preise.js";
 import "./contact.js";
+import "./datenschutz.js";
 
 // navigation
 
@@ -70,7 +71,7 @@ var footer = `
       </div>
       <div class="row">
         <div class="col">
-          <p class="footer-text">&copy;2015-${date} Marta Wilk Photography | All rights reserved.</p>
+          <p class="footer-text">&copy;2015-${date} Marta Wilk Photography | <a href="datenschutz.html" class="datenschutz-link">Impressum & Datenschutzerklärung</a></p>
         </div>
       </div>
     </div>

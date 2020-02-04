@@ -165,6 +165,10 @@ nav {
   padding-bottom: 50px;
 }
 
+a:link.datenschutz-link, a:visited.datenschutz-link, a:active.datenschutz-link {
+  color: rgba(0,0,0,.7);
+}
+
 /* social media */
 
 .socialmedia-icon {

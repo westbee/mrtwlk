@@ -1,0 +1,8 @@
+#impressum h3, #datenschutz h3 {
+  text-align: left;
+}
+
+#impressum p, #datenschutz p {
+  line-height: 1.6;
+  font-size: 0.8rem;
+}
